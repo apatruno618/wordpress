@@ -1,0 +1,141 @@
+/*	
+Theme Name:		Business Infinity
+Theme URI:		https://fanseethemes.com/downloads/business-infinity/
+Description:	Business Infinity is a light multipurpose business WordPress theme that comes with a smooth design and extremely impressive functionality to unleash your website.
+Author:			Fansee Themes
+Author URI: 	http://fanseethemes.com/
+Template:		fansee-business
+Version:		1.2
+Tested up to:   5.7
+Requires PHP:   5.6
+License:		GNU General Public License v3 or later
+License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+Tags:			left-sidebar, right-sidebar, wide-blocks, block-styles, grid-layout, two-columns, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, translation-ready, news, education, entertainment
+Text Domain:	business-infinity
+*/
+p a {
+	text-decoration: underline;
+}
+
+.is-sticky header {
+    z-index: 999 !important;
+}
+
+.site-branding .site-title a {
+	text-decoration: none;
+}
+
+.business-infinity-dark-mode .site-branding .site-title a,
+.business-infinity-dark-mode .site-description,
+.business-infinity-dark-mode .fansee-business-post .post-title a,
+.business-infinity-dark-mode .entry-meta .url, 
+.search.business-infinity-dark-mode .entry-meta .url, 
+.single.business-infinity-dark-mode .entry-meta .url,
+.business-infinity-dark-mode .post .entry-meta .url {
+	color: #fff;
+}
+
+.business-infinity-dark-mode .fansee-business-post {
+	box-shadow: 0 0 2rem 0 #181818;
+}
+
+.business-infinity-dark-mode .fansee-business-date a {
+    color: #000;
+}
+.business-infinity-dark-mode .fst-popup-search-wrapper .fst-popup-search-close {
+	background: #fff;
+}
+@media (min-width: 767px) {
+	aside#secondary {
+	    padding-left: 0;
+	    padding-right: 50px;
+	}
+
+	.left-sidebar main#site-content > .row > .col-lg-4 {
+		order: 1;
+	}
+
+	.left-sidebar main#site-content > .row > .col-lg-8 {
+		order: 2;
+	}
+}
+
+/* infinity business dark mode */
+
+.business-infinity-dark-mode{
+	background: #080808;
+}
+
+.business-infinity-dark-mode .site-branding .site-branding .site-title a,
+.business-infinity-dark-mode .site-branding .site-branding p {
+	color: #fff;
+}
+
+.business-infinity-dark-mode .widget-area .widget ul li a {
+	color: #f6f6f6;
+}
+
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > ul > li.current-menu-item > a,
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > ul li a:hover,
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > ul li:hover a {
+    color: #e2e0e0;
+}
+
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > ul li a, 
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > div > ul li a,
+.business-infinity-dark-mode, 
+.business-infinity-dark-mode h1, 
+.business-infinity-dark-mode .entry-title a, 
+.business-infinity-dark-mode .entry-content h1, 
+.business-infinity-dark-mode h2, 
+.business-infinity-dark-mode .entry-content h2, 
+.business-infinity-dark-mode h3, 
+.business-infinity-dark-mode .entry-content h3, 
+.business-infinity-dark-mode h4, 
+.business-infinity-dark-mode .entry-content h4, 
+.business-infinity-dark-mode h5, 
+.business-infinity-dark-mode .entry-content h5,
+.business-infinity-dark-mode h6, 
+.business-infinity-dark-mode .entry-content h6,
+.business-infinity-dark-mode .footer-widget .widget-title,
+.business-infinity-dark-mode .footer-widget ul li,
+.business-infinity-dark-mode .footer-widget ul li a,
+.business-infinity-dark-mode .fansee-business-section-title.section-title-black,
+.business-infinity-dark-mode .fansee-business-services-section .fansee-business-services-icon-box-wrapper .fansee-business-services-icon-box-inner h3,
+.business-infinity-dark-mode .fansee-business-team-section .fansee-business-team-box .fansee-business-team-description h3,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-content h3 a,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-content .fansee-business-news-box-meta h4,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-date span.news-post-day,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-date span.news-post-year,
+.business-infinity-dark-mode .fansee-business-testimonials-section .fansee-business-testimonials-box h3,
+.business-infinity-dark-mode .fansee-business-header-icons .fansee-business-search-icon {
+	color: #fff;
+}
+
+.business-infinity-dark-mode .fansee-business-loader-wrapper {
+	background: #717171;
+}
+.business-infinity-dark-mode .fansee-business-footer-wrapper,
+.business-infinity-dark-mode .site-header, 
+.business-infinity-dark-mode .fansee-business-services-section .fansee-business-services-icon-box-wrapper .fansee-business-services-icon-box-inner,
+.business-infinity-dark-mode .fansee-business-about-image:after,
+.business-infinity-dark-mode .fansee-business-team-section .fansee-business-team-box ,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box,
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-date,
+.business-infinity-dark-mode .fansee-business-testimonials-section .fansee-business-testimonials-box,
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > ul li ul, 
+.business-infinity-dark-mode .header-navigation-wrapper .primary-menu-wrapper > div > ul li ul,
+.business-infinity-dark-mode .widget-area #calendar_wrap{
+	background: #1e1e1e;
+}
+
+.business-infinity-dark-mode .fansee-business-news-section .fansee-business-news-box .fansee-business-news-content .fansee-business-news-box-meta .post-categories a, 
+.business-infinity-dark-mode .post-categories li a, 
+.business-infinity-dark-mode .fansee-businsess-tags-wrapper ul li a {
+	border-color: #5c5c5c;
+}
+
+.business-infinity-dark-mode .fansee-business-btn-primary:after,
+.business-infinity-dark-mode .fst-popup-search-wrapper {
+	background: #5c5c5c;
+}
